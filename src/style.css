@@ -1,0 +1,107 @@
+:root{
+    --lightgray: #EFEFEF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    background-color: black;
+    color: var(--lightgray);
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.inputField {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+
+input {
+    background-color: black;
+    opacity: 0.9;
+    color: var(--lightgray);
+    border-style: groove;
+    border-radius: 0.5rem;
+}
+
+input[type="search"] {
+    padding-inline: 1rem;
+}
+
+::placeholder {
+    color: var(--lightgray);
+}
+
+
+.condition {
+    font-size: 2.2rem;
+}
+
+.topRight {
+    display: flex;
+    flex-direction: column;
+}
+
+.localTime {
+    font-size: 2.2rem;
+}
+
+.location {
+    display: flex;
+    gap: 1rem;
+}
+
+.country {
+    font-size: 2rem;
+    align-self: flex-start;
+    font-style: italic;
+}
+
+.city {
+    font-size: 5rem;
+}
+
+.contentBelow {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.temperature {
+    font-size: 5rem;
+}
+
+.belowRight {
+    font-size: 1.5rem;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-left: solid 0.2rem var(--lightgray);
+}
+
+.belowRight>div {
+    margin-left: 2rem;
+}
+
+.belowTemp {
+    display: flex;
+    gap: 1rem;
+}
+
+.errorName {
+    font-size: 2rem;
+}
