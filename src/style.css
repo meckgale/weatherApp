@@ -15,6 +15,7 @@ body {
     color: var(--lightgray);
     margin-top: 10rem;
     margin-left: 2rem;
+    overflow: hidden; 
 }
 
 .content {
